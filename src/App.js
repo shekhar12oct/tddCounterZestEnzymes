@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter.component';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p id="p1">Hello Test Driven Deployment Coding!!!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <Counter />
       </header>
+     
     </div>
   );
 }
